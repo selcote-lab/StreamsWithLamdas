@@ -3,6 +3,7 @@ package com.tonasolution;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class Main {
 
@@ -31,5 +32,12 @@ public class Main {
                 .filter(s -> s.startsWith("G"))
                 .sorted()
                 .forEach(System.out::println);
+
+        Stream<String> ioNumbersStream = Stream.of("123", "112", "071");
+        Stream<String> inNumbersStream = Stream.of("123", "112", "071");
+        Stream<String> concatStream = Stream.concat(ioNumbersStream, inNumbersStream);
+        System.out.println("-------------------------------------");
+//        System.out.println(concatStream.distinct().count());
+        System.out.println(concatStream.distinct().peek(System.out::println).count());
     }
 }
