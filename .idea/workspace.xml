@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f44c100d-52e5-46de-8f17-0b01249770bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tonasolution/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tonasolution/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/StreamsWithLamdas/com/tonasolution/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StreamsWithLamdas/com/tonasolution/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tonasolution/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tonasolution/Main.java" afterDir="false" />
@@ -12,6 +13,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,7 +76,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
